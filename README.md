@@ -6,8 +6,8 @@ CSS Pratice (Flexbox, Grid, PostCSS, CSSNext)
 
 - [x] CSS Flex Basics
 - [x] Main Axis and Cross Axis
-- [] Flex Direction
-- [] Flex Wrap
+- [x] Flex Direction
+- [x] Flex Wrap
 - [] Align Self
 
 ## CSS Grid
