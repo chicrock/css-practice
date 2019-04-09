@@ -14,11 +14,17 @@
         */
         grid-auto-rows: 100px;
         grid-gap: 5px;
+        /*
+        grid-template-columns: 2fr 1fr 2fr 1fr;
+        */
+        grid-template-columns: repeat(3, 1fr) 4fr;
+        /*
         grid-template-areas:
           "header header header"
           "content content sidebar"
           "content content sidebar"
           "footer footer footer";
+        */
         /*
         grid-auto-flow: column;
         grid-auto-columns: 60px;
@@ -28,19 +34,15 @@
         */
       }
       .box:first-child {
-        grid-area: header;
         background-color: #f1c40f;
       }
       .box:nth-child(2) {
-        grid-area: sidebar;
         background-color: #27ae58;
       }
       .box:nth-child(3) {
-        grid-area: footer;
         background-color: #3498db;
       }
       .box:nth-child(4) {
-        grid-area: content;
         background-color: #d35408;
       }
     </style>
