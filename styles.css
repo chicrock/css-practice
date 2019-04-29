@@ -1,4 +1,12 @@
-:root {
+@custom-media --ipad-size (450px <= width <= 850px);
+
+@media (--ipad-size) {
+  body {
+    background-color: red;
+  }
+}
+
+/* :root {
   --awesomeColor: #9980b9;
 }
 
@@ -10,7 +18,7 @@ li:first-child a {
 
 :--heading {
   color: #9b59b6;
-}
+} */
 
 /* 
 Matches
