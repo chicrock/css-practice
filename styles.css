@@ -1,3 +1,17 @@
+:root {
+  --awesomeColor: #9980b9;
+}
+
+li:first-child a {
+  color: var(--awesomeColor);
+}
+
+@custom-selector :--heading h1, h2, h3, h4, h5, h6;
+
+:--heading {
+  color: #9b59b6;
+}
+
 /* 
 Matches
 li:matches(:nth-child(even), .target) {
