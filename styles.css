@@ -1,10 +1,23 @@
+h1 {
+  /* color: color-mod(#f39c12 alpha(50%)); */
+  /* color: #f39c12; */
+  /* color: gray(50); */
+  font-family: system-ui;
+}
+
+h1:hover {
+  /* color: color-mod(#f39c12 alpha(50%)); */
+}
+
+/* 
+Media Query
 @custom-media --ipad-size (450px <= width <= 850px);
 
 @media (--ipad-size) {
   body {
     background-color: red;
   }
-}
+} */
 
 /* :root {
   --awesomeColor: #9980b9;
