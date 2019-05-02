@@ -17,9 +17,9 @@
     "start": "parcel index.html"
   },
   "dependencies": {
-    "postcss-preset-env": "^6.6.0",
     "postcss-color-mod-function": "^3.0.3",
-    "postcss-grid-kiss": "^2.1.2"
+    "postcss-grid-kiss": "^2.1.2",
+    "postcss-preset-env": "^6.6.0"
   },
   "postcss": {
     "plugins": {
@@ -29,5 +29,8 @@
       "postcss-color-mod-function": {},
       "postcss-grid-kiss": true
     }
+  },
+  "devDependencies": {
+    "sass": "^1.19.0"
   }
 }

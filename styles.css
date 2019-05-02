@@ -1,4 +1,4 @@
-main {
+/* main {
   background-color: blue;
 
   & section {
@@ -20,7 +20,7 @@ main {
       }
     }
   }
-}
+} */
 
 h1 {
   /* color: color-mod(#f39c12 alpha(50%)); */
